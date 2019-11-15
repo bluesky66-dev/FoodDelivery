@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainCardview"
+    android:layout_width="match_parent"
+    android:layout_height="119dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="4dp"
+    android:background="@color/bottom_border"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/restaurantNameTxtV"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:text="اسم المطعم"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/orders_background"
+            android:textSize="15sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/customerNameTxtV"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="رقم الجوال"
+            android:textColor="@color/profile_txt"
+            android:background="@color/orders_background"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/customerNumTxtV"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="الايميل"
+            android:textColor="@color/profile_txt"
+            android:background="@color/orders_background"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/locationTxtV"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:text="الباسوورد"
+            android:textColor="@color/profile_txt"
+            android:background="@color/orders_background"
+            android:textSize="15sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

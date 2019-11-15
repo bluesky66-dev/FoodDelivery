@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainCardview"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/white"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+            <TextView
+                android:id="@+id/driverNameTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="5"
+            >
+
+            <ImageView
+                android:id="@+id/restaurantImgV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/albaik_pic"
+                android:layout_centerVertical="true"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/restaurantImgV"
+                android:layout_toStartOf="@id/clockRL"
+                android:layout_marginEnd="3dp"
+                >
+
+                <TextView
+                    android:id="@+id/restaurantNameTxtV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:id="@+id/customerNameTxtV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_below="@id/restaurantNameTxtV"
+                    android:text=""
+                    android:textColor="@color/navigation_icon"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/clockRL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/clockImgV"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    app:srcCompat="@drawable/ic_clock"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clockImgV"
+                    android:layout_marginTop="3dp"
+                    android:textSize="12sp"
+                    android:text="@string/_7_minute"
+                    android:textColor="@color/navigation_icon"/>
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="5"
+            android:background="@color/order_status"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:id="@+id/toRestaurantImgV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        app:srcCompat="@drawable/ic_to_restaurant" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/arrowIcon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_arrow" />
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/restaurantIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_restaurant" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/arrowIcon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_arrow" />
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/toCustomerIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_to_customer" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/arrowIcon3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_arrow" />
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageView
+                        android:id="@+id/customerHomeIcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        app:srcCompat="@drawable/ic_customer_home"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

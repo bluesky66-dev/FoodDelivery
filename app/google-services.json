@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "391186100667",
+    "firebase_url": "https://fooddelivery-1d9b5.firebaseio.com",
+    "project_id": "fooddelivery-1d9b5",
+    "storage_bucket": "fooddelivery-1d9b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391186100667:android:fc169c783d59f0a9",
+        "android_client_info": {
+          "package_name": "com.semo_prjects.fooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391186100667-2b2of6rfens39g27m49sm75li3llu2qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.semo_prjects.fooddelivery",
+            "certificate_hash": "9a35bc942aa68f3ca0980e93fb381199a424555e"
+          }
+        },
+        {
+          "client_id": "391186100667-nuvm2cf5p218pnfv8rs4ar6cd0c9qbiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.semo_prjects.fooddelivery",
+            "certificate_hash": "172cc1304f3fd131457cb748ba218f41921aef70"
+          }
+        },
+        {
+          "client_id": "391186100667-o731n9l7dbvva3fsivbpnlebqoh6jff1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdhMeZ1qwQ94jbYBBL43bSaWar5q53q7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391186100667-o731n9l7dbvva3fsivbpnlebqoh6jff1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

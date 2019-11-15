@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Driver.DriverProfileFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/navigation_background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImgV"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/osama_pic" />
+
+            <ImageView
+                android:id="@+id/logoutImgV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                app:srcCompat="@drawable/ic_log_out" />
+
+            <Button
+                android:id="@+id/statusButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toStartOf="@+id/logoutImgV"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/driverNameTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/profileImgV"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/numberOfOrdersRltvL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/txt_view_border">
+
+            <ImageView
+                android:id="@+id/manageAccountsIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_manage_accounts" />
+
+            <TextView
+                android:id="@+id/manageAccountsTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/manageAccountsIcon"
+                android:text="@string/number_of_orders"
+                android:textColor="@color/profile_txt"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/totalDeleviryRevenueRltvL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/txt_view_border">
+
+            <ImageView
+                android:id="@+id/registerAccountIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_register_account" />
+
+            <TextView
+                android:id="@+id/registerAccountTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/registerAccountIcon"
+                android:text="@string/total_deleviry_revenue"
+                android:textColor="@color/profile_txt"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/statisticsRltvL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/txt_view_border">
+
+            <ImageView
+                android:id="@+id/statisticsIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_statistics" />
+
+            <TextView
+                android:id="@+id/statisticsTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/statisticsIcon"
+                android:layout_marginStart="15dp"
+                android:text="@string/statistics"
+                android:textColor="@color/profile_txt"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settingsRltvL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/txt_view_border">
+
+            <ImageView
+                android:id="@+id/settingsIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_settings" />
+
+            <TextView
+                android:id="@+id/settingsTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/settingsIcon"
+                android:layout_marginStart="15dp"
+                android:text="@string/settings"
+                android:textColor="@color/profile_txt"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/available"
+    android:title="@string/available"
+        android:icon="@drawable/ic_available"
+        app:showAsAction="always"
+    />
+    <item android:id="@+id/busy"
+        android:title="@string/busy"
+        android:icon="@drawable/ic_busy"
+        app:showAsAction="always"
+
+        />
+    <item android:id="@+id/offWork"
+        android:icon="@drawable/ic_off_work"
+        android:title="@string/off_work"
+        app:showAsAction="always"
+
+        />
+</menu>

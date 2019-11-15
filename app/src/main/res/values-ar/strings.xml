@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">On Time</string>
+
+    //login
+    <string name="email_hint">الإيميل</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="loginText">تسجيل الدخول</string>
+    <string name="signupText">هل تحتاج حساب جديد؟</string>
+    <string name="action_search_text">بحث</string>
+    <string name="action_setting_text">اعدادات الحساب</string>
+    <string name="action_logout_text">تسجيل الخروج</string>
+    <string name="creat_account_text">إنشاء حساب جديد</string>
+    <string name="signupTextP2">إنشاء حساب</string>
+    <string name="loginButton2">تملك حسابا من قبل؟</string>
+    <string name="confirm_password_hint">تأكيد كلمة المرور</string>
+    <string name="setup_button_text">حفظ اعدادات الحساب</string>
+    <string name="title_activity_admin3">Admin3Activity</string>
+    <string name="title_notification">الإشعارات</string>
+    <string name="title_orders_list">الطلبات</string>
+    <string name="title_profile">الحساب</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">الخرائط</string>
+    <string name="login_txt_view">تسجيل الدخول</string>
+    <string name="new_order">طلب جديد</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="customer_name_hint">اسم العميل</string>
+    <string name="customer_number">رقم العميل</string>
+    <string name="order_price">سعر الطلب</string>
+    <string name="location">الموقع</string>
+    <string name="send_order">إرسال الطلب</string>
+    <string name="name">الإسم</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="_7_minute">٧ دقائق</string>
+    <string name="new_order_">طلب جديد:</string>
+    <string name="clarify_cancellation_reason_please">سبب الرفض؟</string>
+    <string name="to_restaurant">إلى المطعم</string>
+    <string name="at_restaurant">في المطعم</string>
+    <string name="to_customer">إلى العميل</string>
+    <string name="at_customer">في موقع العميل</string>
+    <string name="manage_accounts">ادارة الحسابات</string>
+    <string name="register_new_account">تسجيل حساب جديد</string>
+    <string name="statistics">احصائيات</string>
+    <string name="settings">الاعدادات</string>
+    <string name="number_of_orders">عدد الطلبات</string>
+    <string name="total_deleviry_revenue">إجمالي إيرادات التسليم</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="available">متاح</string>
+    <string name="busy">مشغول</string>
+    <string name="off_work">انتهاء الشفت</string>
+    <string name="captain">كابتن</string>
+    <string name="number">الرقم: %1$s</string>
+    <string name="email">الإيميل: %1$s</string>
+    <string name="name1">الاسم: %1$s</string>
+    <string name="password">كلمة المرور: %1$s</string>
+    <string name="SR">%1$s &#160;  %2$s &#160; %3$s ريال</string>
+    <string name="captain1">كابتن %1$s</string>
+    <string name="waitingforcaptain">في انتظار الكابتن %1$s ليقبل الطلب</string>
+    <string name="manageaccounts">ادارة الحسابات</string>
+    <string name="dataisupdated">تم تحديث البيانات</string>
+    <string name="passwordandconfirmp">كلمة المرور غير متطابقة</string>
+    <string name="choes_account_type">اختر نوع الحساب</string>
+    <string name="account_rigistered_successfully">% تم تسجيل حساب 1$s بنجاح</string>
+    <string name="complete_all_boxes">أكمل جميع البيانات من فضلك</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="order_delivered">تم تسليم الطلب</string>
+    <string name="did_you_deliver_the_order">تم تسليم الطلب؟</string>
+    <string name="restaurant_name">اسم المطعم: </string>
+    <string name="customer_name">اسم العميل: </string>
+    <string name="customer_number1">رقم العميل: </string>
+    <string name="order_cost">سعر الطلب: </string>
+    <string name="customer_location">موقع العميل: </string>
+    <string name="cancel">الغاء</string>
+    <string name="order_info">معلومات الطلب</string>
+    <string name="check_logout">هل تريد تسجيل الخروج من حسابك؟</string>
+    <string name="restarant">%1$s مطعم</string>
+
+</resources>

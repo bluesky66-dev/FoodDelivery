@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.semo_prjects.fooddelivery">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".TestActivity" />
+        <activity android:name=".Driver.MainDriverActivity" />
+        <activity android:name=".MainFlashyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.MainAdminActivity"
+            android:label="@string/title_activity_admin3" />
+        <activity android:name=".Admin.EditAccountActivity" />
+        <activity android:name=".Restaurant.MainRestaurantActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="FDC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Restaurant.NewOrderActivity" />
+        <activity android:name=".Admin.SignupActivity" />
+        <activity android:name=".Admin.AllAccountsActivity" />
+        <activity android:name=".Restaurant.RestaurantOrderActivity" />
+        <activity android:name=".Admin.DriversAccountsActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainCardview"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    android:background="@color/white"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/navigation_icon"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/restaurantNameTxtV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/navigation_icon"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_weight="5"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/numberOfOrdersTxtV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textColor="@color/red"
+                android:layout_toStartOf="@id/driverStatus"
+                android:layout_marginEnd="7dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/driverStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                />
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.cardview.widget.CardView>
